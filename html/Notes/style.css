@@ -1,0 +1,55 @@
+body {
+font-size:12px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+div {
+box-sizing:border-box;
+}
+
+h2, body, div {
+	margin:0px;
+}
+div#wrapper {
+width: 100%;
+height:100%;
+position:absolute;
+border: thin solid #000000;
+}
+div#header {
+padding: 15px;
+text-align: center;
+}
+
+div#nav {
+width: 20%;
+padding: 10px;
+float: left;
+border-right: 1px solid brown;
+height:100%;
+}
+
+div#main {
+width: 75%;
+padding: 10px;
+float: left;
+}
+div#footer {
+padding: 15px;
+margin: 0px;
+border-top: thin solid #000000;
+}
+
+a:link {
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+color: #FF0000;
+}
+a:active {
+text-decoration: none;
+}
